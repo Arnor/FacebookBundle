@@ -1,5 +1,5 @@
 {
-    "name" : "stocarul/facebook-bundle",
+    "name" : "arnor/facebook-bundle",
     "description" : "A facebook sdk bundle",
     "type" : "symfony-bundle",
 
@@ -19,7 +19,7 @@
     "require" : {
         "php": ">=5.4.0",
         "symfony/framework-bundle": "~2.2",
-        "guzzlehttp/guzzle": "~4.0",
+        "guzzlehttp/guzzle": "~6.0",
         "facebook/php-sdk-v4" : "4.0.*"
     },
 
@@ -32,9 +32,9 @@
 
     "autoload" : {
         "psr-0" : {
-            "Stocarul\\FacebookBundle" : ""
+            "Arnor\\FacebookBundle" : ""
         }
     },
 
-    "target-dir" : "Stocarul/FacebookBundle"
+    "target-dir" : "Arnor/FacebookBundle"
 }
