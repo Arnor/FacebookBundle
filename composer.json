@@ -1,5 +1,5 @@
 {
-    "name" : "arnor/facebook-bundle",
+    "name" : "storacul/facebook-bundle",
     "description" : "A facebook sdk bundle",
     "type" : "symfony-bundle",
 
@@ -32,9 +32,9 @@
 
     "autoload" : {
         "psr-0" : {
-            "Arnor\\FacebookBundle" : ""
+            "Storacul\\FacebookBundle" : ""
         }
     },
 
-    "target-dir" : "Arnor/FacebookBundle"
+    "target-dir" : "Storacul/FacebookBundle"
 }
